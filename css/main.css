@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'bebas_neueregular';
+  src: url('fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+        url('fonts/bebasneue-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#mini-header {
+  background-color: #b71766;
+}
+
+#mini-header a {
+  display: inline-block;
+  margin: 10px;
+}
+
+#navbar {
+  background-color: #0000009f;
+  position: absolute;
+  width: 100%;
+}
+
+#navbar .navbar-item {
+  padding: 20px;
+  font-weight: bold;
+}
+
+#navbar .navbar-item img {
+  max-height: 2.75rem;
+}
+
+hr {
+  background-color: #b71766;
+  margin: 80px 100px;
+}
+
+.more-info {
+  margin: 20px 0;
+}
+
+.more-info a {
+  color: #b71766;
+}
+
+.more-info a:hover {
+  color: #363636;
+}
+
+.more-info .button {
+  border-color: #b71766;
+}
+
+.more-info .button.is-hovered, .more-info .button:hover {
+  border-color: #b5b5b5;
+  color: #363636;
+}
+
+footer a {
+  color: #b71766;
+}
+
+footer a:hover {
+  color: #363636;
+}
