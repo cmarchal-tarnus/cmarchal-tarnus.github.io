@@ -63,3 +63,41 @@ footer a {
 footer a:hover {
   color: #363636;
 }
+
+.event {
+  padding: 20px 0;
+}
+
+.agenda .title, .agenda thead {
+  padding: 10px;
+  background-color: #b71766;
+  color: white;
+}
+
+.agenda thead tr th {
+  color: white;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  background-color: #b71766;
+  color: white;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+
+.tooltip .tooltiptext {
+  background-color: white;
+  visibility: hidden;
+  width: 200px;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
